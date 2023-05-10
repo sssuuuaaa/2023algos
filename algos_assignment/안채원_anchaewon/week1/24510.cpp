@@ -14,7 +14,7 @@ int main() {
 		size -= 2;
 		for (int i = 0; i < size; i+=1) if (str.substr(i, 3) == "for") num+=1;
 		size -= 2;
-		for (int i = 0; i < size; i+=1) if (str.substr(i, 5) == "while")num+=1;
+		for (int i = 0; i < size; i+=1) if (str.substr(i, 5) == "while") num+=1;
 
 		result = max(result, num);
 	}
