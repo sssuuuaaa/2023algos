@@ -19,5 +19,5 @@ int main() {
 		result = max(result, num);
 	}
 
-	cout << result;
+	cout << result << endl;
 }
