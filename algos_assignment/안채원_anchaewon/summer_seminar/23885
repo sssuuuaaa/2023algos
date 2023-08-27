@@ -1,1 +1,11 @@
+#include <iostream>
+using namespace std;
 
+int main(){
+  int N, M; cin >> N >> M;
+  int sx, sy, ex, ey;
+  cin >> sx >> sy;
+  cin >> ex >> ey;
+  if (M != 1 && N != 1) cout << ((sx + sy) % 2 == (ex + ey) % 2 ? "YES" : "NO") << "\n";
+  else cout << (sx == ex && sy == ey ? "YES" : "NO") << "\n";
+}
