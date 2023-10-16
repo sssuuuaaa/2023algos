@@ -39,3 +39,5 @@ def checkCross(p1, p2, p3, p4):
     return result   
 
 print(checkCross(point[0], point[1], point[2], point[3]))
+
+# 출처: https://velog.io/@jini_eun/%EB%B0%B1%EC%A4%80-17387%EB%B2%88-%EC%84%A0%EB%B6%84-%EA%B5%90%EC%B0%A8-2-Java-Python
